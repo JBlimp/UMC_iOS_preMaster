@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7zG-LC-vnD">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="Isw-fD-I8l" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gsJ-KJ-Q3v">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="eXf-37-mcQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -30,7 +30,7 @@
             <objects>
                 <viewController id="vY6-2m-mnq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KM4-ew-hBF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="OAe-UP-Eku"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -46,7 +46,7 @@
             <objects>
                 <viewController id="kL9-W8-RAx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OzI-lI-4xH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMb-Er-3Wb">
@@ -138,7 +138,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FCb-1A-TuA">
-                                <rect key="frame" x="16" y="55" width="343" height="44"/>
+                                <rect key="frame" x="16" y="55" width="361" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -200,7 +200,7 @@
             <objects>
                 <viewController id="Nej-3f-2Xl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="edd-L6-K17">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="f4p-Yb-dP8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -216,7 +216,7 @@
             <objects>
                 <viewController id="jXr-5W-3T2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Tk-Ba-eVS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="g53-FN-Bb8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
