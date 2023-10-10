@@ -219,6 +219,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="emailTextFieldEditingChange:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="rcw-Jo-HcQ"/>
+                                    <action selector="드먀ㅣㅆㄷㅌㅅ랴딩:" destination="fus-zT-258" eventType="editingDidEnd" id="wZP-C0-MEC"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="성명" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tsv-fD-BTg">
@@ -344,6 +345,12 @@
                             <constraint firstItem="VPY-A7-TFB" firstAttribute="top" secondItem="TYM-Se-co1" secondAttribute="bottom" constant="20" id="wTl-Cq-B48"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="8S7-Z8-DMH" id="y6Y-ww-SHt"/>
+                        <outlet property="nameTextField" destination="Tsv-fD-BTg" id="gS6-kg-pqJ"/>
+                        <outlet property="nicknameTextField" destination="EHM-AW-G1Z" id="Feb-hv-NJE"/>
+                        <outlet property="passwordTextField" destination="DkU-Zc-MCk" id="s1e-aT-pAm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QIu-qU-m0o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
