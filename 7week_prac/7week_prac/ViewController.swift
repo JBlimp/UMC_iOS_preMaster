@@ -10,6 +10,9 @@ import KakaoSDKUser
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var profileImage: UIImageView!
+    
     @IBOutlet weak var kakaoLoginButton: UIButton!
     
     @IBAction func kakaoLoginButtonTouchUpInside(_ sender: Any) {
@@ -27,7 +30,7 @@ class ViewController: UIViewController {
                 }
             }
         } else {
-
+            
             // 카톡 없으면 -> 계정으로 로그인
             UserApi.shared.loginWithKakaoAccount { (oauthToken, error) in
                 if let error = error {
@@ -37,9 +40,26 @@ class ViewController: UIViewController {
                     
                     _ = oauthToken
                     // 관련 메소드 추가
+                    
+                    UserApi.shared.me { user, error in
+                        if let error = error {
+                            print(error)
+                        } else {
+                            let profileImageURL = user?.kakaoAccount?.profile?.profileImageUrl
+                            let nickname = user?.kakaoAccount?.profile?.nickname
+                            self.presentProfile(profileURL: profileImageURL, nickname: nickname)
+                        }
+                    }
                 }
             }
         }
+    }
+    
+    private func presentProfile(profileURL: URL?, nickname: String?) {
+        guard let imageData = try? Data(contentsOf: profileURL!) else {return}
+        
+        profileImage.image = UIImage(data: imageData)
+        nameLabel.text = nickname
     }
     
     override func viewDidLoad() {
