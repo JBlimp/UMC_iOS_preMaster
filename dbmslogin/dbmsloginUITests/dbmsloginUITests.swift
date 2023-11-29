@@ -1,13 +1,13 @@
 //
-//  catstagramUITests.swift
-//  catstagramUITests
+//  dbmsloginUITests.swift
+//  dbmsloginUITests
 //
-//  Created by junseok on 11/22/23.
+//  Created by junseok on 11/29/23.
 //
 
 import XCTest
 
-final class catstagramUITests: XCTestCase {
+final class dbmsloginUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

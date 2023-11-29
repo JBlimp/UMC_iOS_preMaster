@@ -1,13 +1,13 @@
 //
-//  catstagramUITestsLaunchTests.swift
-//  catstagramUITests
+//  dbmsloginUITestsLaunchTests.swift
+//  dbmsloginUITests
 //
-//  Created by junseok on 11/22/23.
+//  Created by junseok on 11/29/23.
 //
 
 import XCTest
 
-final class catstagramUITestsLaunchTests: XCTestCase {
+final class dbmsloginUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

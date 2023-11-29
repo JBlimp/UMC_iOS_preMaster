@@ -7,72 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F5F0E4F2AFB5ED2002C2996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E4E2AFB5ED2002C2996 /* AppDelegate.swift */; };
-		3F5F0E512AFB5ED2002C2996 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E502AFB5ED2002C2996 /* SceneDelegate.swift */; };
-		3F5F0E532AFB5ED2002C2996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E522AFB5ED2002C2996 /* ViewController.swift */; };
-		3F5F0E562AFB5ED2002C2996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F0E542AFB5ED2002C2996 /* Main.storyboard */; };
-		3F5F0E582AFB5ED4002C2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F0E572AFB5ED4002C2996 /* Assets.xcassets */; };
-		3F5F0E5B2AFB5ED4002C2996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F0E592AFB5ED4002C2996 /* LaunchScreen.storyboard */; };
-		3F5F0E662AFB5ED4002C2996 /* catstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E652AFB5ED4002C2996 /* catstagramTests.swift */; };
-		3F5F0E702AFB5ED4002C2996 /* catstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E6F2AFB5ED4002C2996 /* catstagramUITests.swift */; };
-		3F5F0E722AFB5ED4002C2996 /* catstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E712AFB5ED4002C2996 /* catstagramUITestsLaunchTests.swift */; };
-		3F5F0E802AFB62ED002C2996 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E7F2AFB62ED002C2996 /* HomeViewController.swift */; };
-		3F5F0E842AFB64E0002C2996 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5F0E822AFB64E0002C2996 /* FeedTableViewCell.swift */; };
-		3F5F0E852AFB64E0002C2996 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5F0E832AFB64E0002C2996 /* FeedTableViewCell.xib */; };
+		3FF030522B0DBE09009EC416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF030512B0DBE09009EC416 /* AppDelegate.swift */; };
+		3FF030542B0DBE09009EC416 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF030532B0DBE09009EC416 /* SceneDelegate.swift */; };
+		3FF030562B0DBE09009EC416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF030552B0DBE09009EC416 /* ViewController.swift */; };
+		3FF030592B0DBE09009EC416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF030572B0DBE09009EC416 /* Main.storyboard */; };
+		3FF0305B2B0DBE0A009EC416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0305A2B0DBE0A009EC416 /* Assets.xcassets */; };
+		3FF0305E2B0DBE0A009EC416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF0305C2B0DBE0A009EC416 /* LaunchScreen.storyboard */; };
+		3FF030692B0DBE0A009EC416 /* catstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF030682B0DBE0A009EC416 /* catstagramTests.swift */; };
+		3FF030732B0DBE0A009EC416 /* catstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF030722B0DBE0A009EC416 /* catstagramUITests.swift */; };
+		3FF030752B0DBE0A009EC416 /* catstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF030742B0DBE0A009EC416 /* catstagramUITestsLaunchTests.swift */; };
+		3FF030832B0DC21C009EC416 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF030822B0DC21C009EC416 /* HomeViewController.swift */; };
+		3FFA787A2B0DC40A00D68C89 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA78782B0DC40A00D68C89 /* FeedTableViewCell.swift */; };
+		3FFA787B2B0DC40A00D68C89 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA78792B0DC40A00D68C89 /* FeedTableViewCell.xib */; };
+		3FFA787E2B0DD0A700D68C89 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA787C2B0DD0A700D68C89 /* StoryTableViewCell.swift */; };
+		3FFA787F2B0DD0A700D68C89 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA787D2B0DD0A700D68C89 /* StoryTableViewCell.xib */; };
+		3FFA78822B0DD4A100D68C89 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA78802B0DD4A100D68C89 /* StoryCollectionViewCell.swift */; };
+		3FFA78832B0DD4A100D68C89 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA78812B0DD4A100D68C89 /* StoryCollectionViewCell.xib */; };
+		3FFA78862B0DDB8D00D68C89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA78852B0DDB8D00D68C89 /* ProfileViewController.swift */; };
+		3FFA788A2B0DDD3D00D68C89 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA78882B0DDD3D00D68C89 /* ProfileCollectionViewCell.swift */; };
+		3FFA788B2B0DDD3D00D68C89 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA78892B0DDD3D00D68C89 /* ProfileCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F5F0E622AFB5ED4002C2996 /* PBXContainerItemProxy */ = {
+		3FF030652B0DBE0A009EC416 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F5F0E432AFB5ED2002C2996 /* Project object */;
+			containerPortal = 3FF030462B0DBE09009EC416 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F5F0E4A2AFB5ED2002C2996;
+			remoteGlobalIDString = 3FF0304D2B0DBE09009EC416;
 			remoteInfo = catstagram;
 		};
-		3F5F0E6C2AFB5ED4002C2996 /* PBXContainerItemProxy */ = {
+		3FF0306F2B0DBE0A009EC416 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F5F0E432AFB5ED2002C2996 /* Project object */;
+			containerPortal = 3FF030462B0DBE09009EC416 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F5F0E4A2AFB5ED2002C2996;
+			remoteGlobalIDString = 3FF0304D2B0DBE09009EC416;
 			remoteInfo = catstagram;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F5F0E4B2AFB5ED2002C2996 /* catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5F0E4E2AFB5ED2002C2996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F5F0E502AFB5ED2002C2996 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F5F0E522AFB5ED2002C2996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F5F0E552AFB5ED2002C2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F5F0E572AFB5ED4002C2996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F5F0E5A2AFB5ED4002C2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F5F0E5C2AFB5ED4002C2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F5F0E612AFB5ED4002C2996 /* catstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5F0E652AFB5ED4002C2996 /* catstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catstagramTests.swift; sourceTree = "<group>"; };
-		3F5F0E6B2AFB5ED4002C2996 /* catstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5F0E6F2AFB5ED4002C2996 /* catstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catstagramUITests.swift; sourceTree = "<group>"; };
-		3F5F0E712AFB5ED4002C2996 /* catstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3F5F0E7F2AFB62ED002C2996 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		3F5F0E822AFB64E0002C2996 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
-		3F5F0E832AFB64E0002C2996 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		3FF0304E2B0DBE09009EC416 /* catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF030512B0DBE09009EC416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FF030532B0DBE09009EC416 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FF030552B0DBE09009EC416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF030582B0DBE09009EC416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF0305A2B0DBE0A009EC416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF0305D2B0DBE0A009EC416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF0305F2B0DBE0A009EC416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF030642B0DBE0A009EC416 /* catstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF030682B0DBE0A009EC416 /* catstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catstagramTests.swift; sourceTree = "<group>"; };
+		3FF0306E2B0DBE0A009EC416 /* catstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF030722B0DBE0A009EC416 /* catstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catstagramUITests.swift; sourceTree = "<group>"; };
+		3FF030742B0DBE0A009EC416 /* catstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FF030822B0DC21C009EC416 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3FFA78782B0DC40A00D68C89 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		3FFA78792B0DC40A00D68C89 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		3FFA787C2B0DD0A700D68C89 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		3FFA787D2B0DD0A700D68C89 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
+		3FFA78802B0DD4A100D68C89 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FFA78812B0DD4A100D68C89 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		3FFA78852B0DDB8D00D68C89 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3FFA78882B0DDD3D00D68C89 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		3FFA78892B0DDD3D00D68C89 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F5F0E482AFB5ED2002C2996 /* Frameworks */ = {
+		3FF0304B2B0DBE09009EC416 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F5F0E5E2AFB5ED4002C2996 /* Frameworks */ = {
+		3FF030612B0DBE0A009EC416 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F5F0E682AFB5ED4002C2996 /* Frameworks */ = {
+		3FF0306B2B0DBE0A009EC416 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,86 +96,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F5F0E422AFB5ED2002C2996 = {
+		3FF030452B0DBE09009EC416 = {
 			isa = PBXGroup;
 			children = (
-				3F5F0E4D2AFB5ED2002C2996 /* catstagram */,
-				3F5F0E642AFB5ED4002C2996 /* catstagramTests */,
-				3F5F0E6E2AFB5ED4002C2996 /* catstagramUITests */,
-				3F5F0E4C2AFB5ED2002C2996 /* Products */,
+				3FF030502B0DBE09009EC416 /* catstagram */,
+				3FF030672B0DBE0A009EC416 /* catstagramTests */,
+				3FF030712B0DBE0A009EC416 /* catstagramUITests */,
+				3FF0304F2B0DBE09009EC416 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F5F0E4C2AFB5ED2002C2996 /* Products */ = {
+		3FF0304F2B0DBE09009EC416 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F5F0E4B2AFB5ED2002C2996 /* catstagram.app */,
-				3F5F0E612AFB5ED4002C2996 /* catstagramTests.xctest */,
-				3F5F0E6B2AFB5ED4002C2996 /* catstagramUITests.xctest */,
+				3FF0304E2B0DBE09009EC416 /* catstagram.app */,
+				3FF030642B0DBE0A009EC416 /* catstagramTests.xctest */,
+				3FF0306E2B0DBE0A009EC416 /* catstagramUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F5F0E4D2AFB5ED2002C2996 /* catstagram */ = {
+		3FF030502B0DBE09009EC416 /* catstagram */ = {
 			isa = PBXGroup;
 			children = (
-				3F5F0E7E2AFB62C5002C2996 /* home */,
-				3F5F0E4E2AFB5ED2002C2996 /* AppDelegate.swift */,
-				3F5F0E502AFB5ED2002C2996 /* SceneDelegate.swift */,
-				3F5F0E522AFB5ED2002C2996 /* ViewController.swift */,
-				3F5F0E542AFB5ED2002C2996 /* Main.storyboard */,
-				3F5F0E572AFB5ED4002C2996 /* Assets.xcassets */,
-				3F5F0E592AFB5ED4002C2996 /* LaunchScreen.storyboard */,
-				3F5F0E5C2AFB5ED4002C2996 /* Info.plist */,
+				3FFA78842B0DDB6700D68C89 /* Profile */,
+				3FF030812B0DC1EF009EC416 /* Home */,
+				3FF030512B0DBE09009EC416 /* AppDelegate.swift */,
+				3FF030532B0DBE09009EC416 /* SceneDelegate.swift */,
+				3FF030552B0DBE09009EC416 /* ViewController.swift */,
+				3FF030572B0DBE09009EC416 /* Main.storyboard */,
+				3FF0305A2B0DBE0A009EC416 /* Assets.xcassets */,
+				3FF0305C2B0DBE0A009EC416 /* LaunchScreen.storyboard */,
+				3FF0305F2B0DBE0A009EC416 /* Info.plist */,
 			);
 			path = catstagram;
 			sourceTree = "<group>";
 		};
-		3F5F0E642AFB5ED4002C2996 /* catstagramTests */ = {
+		3FF030672B0DBE0A009EC416 /* catstagramTests */ = {
 			isa = PBXGroup;
 			children = (
-				3F5F0E652AFB5ED4002C2996 /* catstagramTests.swift */,
+				3FF030682B0DBE0A009EC416 /* catstagramTests.swift */,
 			);
 			path = catstagramTests;
 			sourceTree = "<group>";
 		};
-		3F5F0E6E2AFB5ED4002C2996 /* catstagramUITests */ = {
+		3FF030712B0DBE0A009EC416 /* catstagramUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3F5F0E6F2AFB5ED4002C2996 /* catstagramUITests.swift */,
-				3F5F0E712AFB5ED4002C2996 /* catstagramUITestsLaunchTests.swift */,
+				3FF030722B0DBE0A009EC416 /* catstagramUITests.swift */,
+				3FF030742B0DBE0A009EC416 /* catstagramUITestsLaunchTests.swift */,
 			);
 			path = catstagramUITests;
 			sourceTree = "<group>";
 		};
-		3F5F0E7E2AFB62C5002C2996 /* home */ = {
+		3FF030812B0DC1EF009EC416 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				3F5F0E812AFB64BB002C2996 /* cell */,
-				3F5F0E7F2AFB62ED002C2996 /* HomeViewController.swift */,
+				3FFA78772B0DC3EB00D68C89 /* cell */,
+				3FF030822B0DC21C009EC416 /* HomeViewController.swift */,
 			);
-			path = home;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		3F5F0E812AFB64BB002C2996 /* cell */ = {
+		3FFA78772B0DC3EB00D68C89 /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				3F5F0E822AFB64E0002C2996 /* FeedTableViewCell.swift */,
-				3F5F0E832AFB64E0002C2996 /* FeedTableViewCell.xib */,
+				3FFA78782B0DC40A00D68C89 /* FeedTableViewCell.swift */,
+				3FFA78792B0DC40A00D68C89 /* FeedTableViewCell.xib */,
+				3FFA787C2B0DD0A700D68C89 /* StoryTableViewCell.swift */,
+				3FFA787D2B0DD0A700D68C89 /* StoryTableViewCell.xib */,
+				3FFA78802B0DD4A100D68C89 /* StoryCollectionViewCell.swift */,
+				3FFA78812B0DD4A100D68C89 /* StoryCollectionViewCell.xib */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		3FFA78842B0DDB6700D68C89 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3FFA78872B0DDD2900D68C89 /* Cell */,
+				3FFA78852B0DDB8D00D68C89 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3FFA78872B0DDD2900D68C89 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3FFA78882B0DDD3D00D68C89 /* ProfileCollectionViewCell.swift */,
+				3FFA78892B0DDD3D00D68C89 /* ProfileCollectionViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F5F0E4A2AFB5ED2002C2996 /* catstagram */ = {
+		3FF0304D2B0DBE09009EC416 /* catstagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5F0E752AFB5ED4002C2996 /* Build configuration list for PBXNativeTarget "catstagram" */;
+			buildConfigurationList = 3FF030782B0DBE0A009EC416 /* Build configuration list for PBXNativeTarget "catstagram" */;
 			buildPhases = (
-				3F5F0E472AFB5ED2002C2996 /* Sources */,
-				3F5F0E482AFB5ED2002C2996 /* Frameworks */,
-				3F5F0E492AFB5ED2002C2996 /* Resources */,
+				3FF0304A2B0DBE09009EC416 /* Sources */,
+				3FF0304B2B0DBE09009EC416 /* Frameworks */,
+				3FF0304C2B0DBE09009EC416 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -169,69 +206,69 @@
 			);
 			name = catstagram;
 			productName = catstagram;
-			productReference = 3F5F0E4B2AFB5ED2002C2996 /* catstagram.app */;
+			productReference = 3FF0304E2B0DBE09009EC416 /* catstagram.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3F5F0E602AFB5ED4002C2996 /* catstagramTests */ = {
+		3FF030632B0DBE0A009EC416 /* catstagramTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5F0E782AFB5ED4002C2996 /* Build configuration list for PBXNativeTarget "catstagramTests" */;
+			buildConfigurationList = 3FF0307B2B0DBE0A009EC416 /* Build configuration list for PBXNativeTarget "catstagramTests" */;
 			buildPhases = (
-				3F5F0E5D2AFB5ED4002C2996 /* Sources */,
-				3F5F0E5E2AFB5ED4002C2996 /* Frameworks */,
-				3F5F0E5F2AFB5ED4002C2996 /* Resources */,
+				3FF030602B0DBE0A009EC416 /* Sources */,
+				3FF030612B0DBE0A009EC416 /* Frameworks */,
+				3FF030622B0DBE0A009EC416 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F5F0E632AFB5ED4002C2996 /* PBXTargetDependency */,
+				3FF030662B0DBE0A009EC416 /* PBXTargetDependency */,
 			);
 			name = catstagramTests;
 			productName = catstagramTests;
-			productReference = 3F5F0E612AFB5ED4002C2996 /* catstagramTests.xctest */;
+			productReference = 3FF030642B0DBE0A009EC416 /* catstagramTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3F5F0E6A2AFB5ED4002C2996 /* catstagramUITests */ = {
+		3FF0306D2B0DBE0A009EC416 /* catstagramUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F5F0E7B2AFB5ED4002C2996 /* Build configuration list for PBXNativeTarget "catstagramUITests" */;
+			buildConfigurationList = 3FF0307E2B0DBE0A009EC416 /* Build configuration list for PBXNativeTarget "catstagramUITests" */;
 			buildPhases = (
-				3F5F0E672AFB5ED4002C2996 /* Sources */,
-				3F5F0E682AFB5ED4002C2996 /* Frameworks */,
-				3F5F0E692AFB5ED4002C2996 /* Resources */,
+				3FF0306A2B0DBE0A009EC416 /* Sources */,
+				3FF0306B2B0DBE0A009EC416 /* Frameworks */,
+				3FF0306C2B0DBE0A009EC416 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F5F0E6D2AFB5ED4002C2996 /* PBXTargetDependency */,
+				3FF030702B0DBE0A009EC416 /* PBXTargetDependency */,
 			);
 			name = catstagramUITests;
 			productName = catstagramUITests;
-			productReference = 3F5F0E6B2AFB5ED4002C2996 /* catstagramUITests.xctest */;
+			productReference = 3FF0306E2B0DBE0A009EC416 /* catstagramUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F5F0E432AFB5ED2002C2996 /* Project object */ = {
+		3FF030462B0DBE09009EC416 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					3F5F0E4A2AFB5ED2002C2996 = {
+					3FF0304D2B0DBE09009EC416 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
-					3F5F0E602AFB5ED4002C2996 = {
+					3FF030632B0DBE0A009EC416 = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 3F5F0E4A2AFB5ED2002C2996;
+						TestTargetID = 3FF0304D2B0DBE09009EC416;
 					};
-					3F5F0E6A2AFB5ED4002C2996 = {
+					3FF0306D2B0DBE0A009EC416 = {
 						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 3F5F0E4A2AFB5ED2002C2996;
+						TestTargetID = 3FF0304D2B0DBE09009EC416;
 					};
 				};
 			};
-			buildConfigurationList = 3F5F0E462AFB5ED2002C2996 /* Build configuration list for PBXProject "catstagram" */;
+			buildConfigurationList = 3FF030492B0DBE09009EC416 /* Build configuration list for PBXProject "catstagram" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,38 +276,41 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F5F0E422AFB5ED2002C2996;
-			productRefGroup = 3F5F0E4C2AFB5ED2002C2996 /* Products */;
+			mainGroup = 3FF030452B0DBE09009EC416;
+			productRefGroup = 3FF0304F2B0DBE09009EC416 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F5F0E4A2AFB5ED2002C2996 /* catstagram */,
-				3F5F0E602AFB5ED4002C2996 /* catstagramTests */,
-				3F5F0E6A2AFB5ED4002C2996 /* catstagramUITests */,
+				3FF0304D2B0DBE09009EC416 /* catstagram */,
+				3FF030632B0DBE0A009EC416 /* catstagramTests */,
+				3FF0306D2B0DBE0A009EC416 /* catstagramUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F5F0E492AFB5ED2002C2996 /* Resources */ = {
+		3FF0304C2B0DBE09009EC416 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5F0E5B2AFB5ED4002C2996 /* LaunchScreen.storyboard in Resources */,
-				3F5F0E852AFB64E0002C2996 /* FeedTableViewCell.xib in Resources */,
-				3F5F0E582AFB5ED4002C2996 /* Assets.xcassets in Resources */,
-				3F5F0E562AFB5ED2002C2996 /* Main.storyboard in Resources */,
+				3FF0305E2B0DBE0A009EC416 /* LaunchScreen.storyboard in Resources */,
+				3FFA787B2B0DC40A00D68C89 /* FeedTableViewCell.xib in Resources */,
+				3FF0305B2B0DBE0A009EC416 /* Assets.xcassets in Resources */,
+				3FFA788B2B0DDD3D00D68C89 /* ProfileCollectionViewCell.xib in Resources */,
+				3FFA787F2B0DD0A700D68C89 /* StoryTableViewCell.xib in Resources */,
+				3FFA78832B0DD4A100D68C89 /* StoryCollectionViewCell.xib in Resources */,
+				3FF030592B0DBE09009EC416 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F5F0E5F2AFB5ED4002C2996 /* Resources */ = {
+		3FF030622B0DBE0A009EC416 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F5F0E692AFB5ED4002C2996 /* Resources */ = {
+		3FF0306C2B0DBE0A009EC416 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,63 +320,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F5F0E472AFB5ED2002C2996 /* Sources */ = {
+		3FF0304A2B0DBE09009EC416 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5F0E532AFB5ED2002C2996 /* ViewController.swift in Sources */,
-				3F5F0E4F2AFB5ED2002C2996 /* AppDelegate.swift in Sources */,
-				3F5F0E512AFB5ED2002C2996 /* SceneDelegate.swift in Sources */,
-				3F5F0E802AFB62ED002C2996 /* HomeViewController.swift in Sources */,
-				3F5F0E842AFB64E0002C2996 /* FeedTableViewCell.swift in Sources */,
+				3FF030562B0DBE09009EC416 /* ViewController.swift in Sources */,
+				3FFA788A2B0DDD3D00D68C89 /* ProfileCollectionViewCell.swift in Sources */,
+				3FF030522B0DBE09009EC416 /* AppDelegate.swift in Sources */,
+				3FF030542B0DBE09009EC416 /* SceneDelegate.swift in Sources */,
+				3FF030832B0DC21C009EC416 /* HomeViewController.swift in Sources */,
+				3FFA787A2B0DC40A00D68C89 /* FeedTableViewCell.swift in Sources */,
+				3FFA78822B0DD4A100D68C89 /* StoryCollectionViewCell.swift in Sources */,
+				3FFA78862B0DDB8D00D68C89 /* ProfileViewController.swift in Sources */,
+				3FFA787E2B0DD0A700D68C89 /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F5F0E5D2AFB5ED4002C2996 /* Sources */ = {
+		3FF030602B0DBE0A009EC416 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5F0E662AFB5ED4002C2996 /* catstagramTests.swift in Sources */,
+				3FF030692B0DBE0A009EC416 /* catstagramTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F5F0E672AFB5ED4002C2996 /* Sources */ = {
+		3FF0306A2B0DBE0A009EC416 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F5F0E702AFB5ED4002C2996 /* catstagramUITests.swift in Sources */,
-				3F5F0E722AFB5ED4002C2996 /* catstagramUITestsLaunchTests.swift in Sources */,
+				3FF030732B0DBE0A009EC416 /* catstagramUITests.swift in Sources */,
+				3FF030752B0DBE0A009EC416 /* catstagramUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F5F0E632AFB5ED4002C2996 /* PBXTargetDependency */ = {
+		3FF030662B0DBE0A009EC416 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F5F0E4A2AFB5ED2002C2996 /* catstagram */;
-			targetProxy = 3F5F0E622AFB5ED4002C2996 /* PBXContainerItemProxy */;
+			target = 3FF0304D2B0DBE09009EC416 /* catstagram */;
+			targetProxy = 3FF030652B0DBE0A009EC416 /* PBXContainerItemProxy */;
 		};
-		3F5F0E6D2AFB5ED4002C2996 /* PBXTargetDependency */ = {
+		3FF030702B0DBE0A009EC416 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3F5F0E4A2AFB5ED2002C2996 /* catstagram */;
-			targetProxy = 3F5F0E6C2AFB5ED4002C2996 /* PBXContainerItemProxy */;
+			target = 3FF0304D2B0DBE09009EC416 /* catstagram */;
+			targetProxy = 3FF0306F2B0DBE0A009EC416 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F5F0E542AFB5ED2002C2996 /* Main.storyboard */ = {
+		3FF030572B0DBE09009EC416 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F5F0E552AFB5ED2002C2996 /* Base */,
+				3FF030582B0DBE09009EC416 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3F5F0E592AFB5ED4002C2996 /* LaunchScreen.storyboard */ = {
+		3FF0305C2B0DBE0A009EC416 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F5F0E5A2AFB5ED4002C2996 /* Base */,
+				3FF0305D2B0DBE0A009EC416 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -344,7 +388,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F5F0E732AFB5ED4002C2996 /* Debug */ = {
+		3FF030762B0DBE0A009EC416 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -407,7 +451,7 @@
 			};
 			name = Debug;
 		};
-		3F5F0E742AFB5ED4002C2996 /* Release */ = {
+		3FF030772B0DBE0A009EC416 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -463,7 +507,7 @@
 			};
 			name = Release;
 		};
-		3F5F0E762AFB5ED4002C2996 /* Debug */ = {
+		3FF030792B0DBE0A009EC416 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -490,7 +534,7 @@
 			};
 			name = Debug;
 		};
-		3F5F0E772AFB5ED4002C2996 /* Release */ = {
+		3FF0307A2B0DBE0A009EC416 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -517,7 +561,7 @@
 			};
 			name = Release;
 		};
-		3F5F0E792AFB5ED4002C2996 /* Debug */ = {
+		3FF0307C2B0DBE0A009EC416 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -536,7 +580,7 @@
 			};
 			name = Debug;
 		};
-		3F5F0E7A2AFB5ED4002C2996 /* Release */ = {
+		3FF0307D2B0DBE0A009EC416 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,7 +599,7 @@
 			};
 			name = Release;
 		};
-		3F5F0E7C2AFB5ED4002C2996 /* Debug */ = {
+		3FF0307F2B0DBE0A009EC416 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -572,7 +616,7 @@
 			};
 			name = Debug;
 		};
-		3F5F0E7D2AFB5ED4002C2996 /* Release */ = {
+		3FF030802B0DBE0A009EC416 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -592,43 +636,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F5F0E462AFB5ED2002C2996 /* Build configuration list for PBXProject "catstagram" */ = {
+		3FF030492B0DBE09009EC416 /* Build configuration list for PBXProject "catstagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F5F0E732AFB5ED4002C2996 /* Debug */,
-				3F5F0E742AFB5ED4002C2996 /* Release */,
+				3FF030762B0DBE0A009EC416 /* Debug */,
+				3FF030772B0DBE0A009EC416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F5F0E752AFB5ED4002C2996 /* Build configuration list for PBXNativeTarget "catstagram" */ = {
+		3FF030782B0DBE0A009EC416 /* Build configuration list for PBXNativeTarget "catstagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F5F0E762AFB5ED4002C2996 /* Debug */,
-				3F5F0E772AFB5ED4002C2996 /* Release */,
+				3FF030792B0DBE0A009EC416 /* Debug */,
+				3FF0307A2B0DBE0A009EC416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F5F0E782AFB5ED4002C2996 /* Build configuration list for PBXNativeTarget "catstagramTests" */ = {
+		3FF0307B2B0DBE0A009EC416 /* Build configuration list for PBXNativeTarget "catstagramTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F5F0E792AFB5ED4002C2996 /* Debug */,
-				3F5F0E7A2AFB5ED4002C2996 /* Release */,
+				3FF0307C2B0DBE0A009EC416 /* Debug */,
+				3FF0307D2B0DBE0A009EC416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F5F0E7B2AFB5ED4002C2996 /* Build configuration list for PBXNativeTarget "catstagramUITests" */ = {
+		3FF0307E2B0DBE0A009EC416 /* Build configuration list for PBXNativeTarget "catstagramUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F5F0E7C2AFB5ED4002C2996 /* Debug */,
-				3F5F0E7D2AFB5ED4002C2996 /* Release */,
+				3FF0307F2B0DBE0A009EC416 /* Debug */,
+				3FF030802B0DBE0A009EC416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F5F0E432AFB5ED2002C2996 /* Project object */;
+	rootObject = 3FF030462B0DBE09009EC416 /* Project object */;
 }

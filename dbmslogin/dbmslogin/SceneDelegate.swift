@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  catstagram
+//  dbmslogin
 //
-//  Created by junseok on 11/22/23.
+//  Created by junseok on 11/29/23.
 //
 
 import UIKit

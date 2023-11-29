@@ -1,14 +1,14 @@
 //
-//  catstagramTests.swift
-//  catstagramTests
+//  dbmsloginTests.swift
+//  dbmsloginTests
 //
-//  Created by junseok on 11/22/23.
+//  Created by junseok on 11/29/23.
 //
 
 import XCTest
-@testable import catstagram
+@testable import dbmslogin
 
-final class catstagramTests: XCTestCase {
+final class dbmsloginTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

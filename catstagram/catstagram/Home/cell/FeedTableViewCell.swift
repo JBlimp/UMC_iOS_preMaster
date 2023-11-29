@@ -2,13 +2,12 @@
 //  FeedTableViewCell.swift
 //  catstagram
 //
-//  Created by junseok on 11/8/23.
+//  Created by junseok on 11/22/23.
 //
 
 import UIKit
 
 class FeedTableViewCell: UITableViewCell {
-
     @IBOutlet weak var imageViewUserProfile: UIImageView!
     @IBOutlet weak var labelUserName: UILabel!
     @IBOutlet weak var imageViewFeed: UIImageView!
@@ -19,33 +18,31 @@ class FeedTableViewCell: UITableViewCell {
     @IBOutlet weak var imageViewMyProfile: UIImageView!
     
     @IBAction func actionIsHeart(_ sender: Any) {
-        if buttonIsHeart.isSelected {
-            buttonIsHeart.isSelected = false
-        } else {
-            buttonIsHeart.isSelected = true
-        }
+        buttonIsHeart.isSelected = !buttonIsHeart.isSelected
     }
     
     @IBAction func actionIsBookMark(_ sender: Any) {
-        if buttonIsBookMark.isSelected {
-            buttonIsBookMark.isSelected = false
-        } else {
-            buttonIsBookMark.isSelected = true
-        }
+        buttonIsBookMark.isSelected = !buttonIsBookMark.isSelected
     }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        imageViewUserProfile.layer.cornerRadius = 22.5
+        imageViewUserProfile.layer.cornerRadius = 12.5
+        imageViewUserProfile.layer.masksToBounds = true
         imageViewUserProfile.clipsToBounds = true
-        imageViewMyProfile.layer.cornerRadius = 22.5
+        
+        imageViewMyProfile.layer.cornerRadius = 12.5
+        imageViewMyProfile.layer.masksToBounds = true
         imageViewMyProfile.clipsToBounds = true
         
         let fontSize = UIFont.boldSystemFont(ofSize: 9)
         let attributedStr = NSMutableAttributedString(string: labelFeed.text ?? "")
-        attributedStr.addAttribute(.font, value: fontSize, range: NSRange.init(location: 0, length: 3))
+        attributedStr.addAttribute(.font, value: fontSize, range: NSRange.init(location: 0, length: 7))
+        
         labelFeed.attributedText = attributedStr
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

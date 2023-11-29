@@ -47,6 +47,8 @@ class ViewController: UIViewController {
                         } else {
                             let profileImageURL = user?.kakaoAccount?.profile?.profileImageUrl
                             let nickname = user?.kakaoAccount?.profile?.nickname
+                            
+                            
                             self.presentProfile(profileURL: profileImageURL, nickname: nickname)
                         }
                     }
