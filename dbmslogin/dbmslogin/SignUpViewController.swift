@@ -34,6 +34,8 @@ class SignUpViewController: UIViewController {
             
             alertLabel.text = "회원가입이 완료되었습니다"
             
+        } else {
+            alertLabel.text = "비밀번호 확인을 다시 입력하세요"
         }
         
     }
